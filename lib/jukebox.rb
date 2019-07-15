@@ -28,7 +28,7 @@ def list(songs)
   song_list
 end
 
-binding.pry
+
 
 def play(songs)
   
@@ -37,8 +37,10 @@ def play(songs)
   input = gets.chomp
   
   if input == Integer && input > 0 && input <= list(songs).length
+  song_name = list(songs)[input - 1]
+  puts "playing #{song_name}"
   
-  puts "playing "
+  
   
   
   end
