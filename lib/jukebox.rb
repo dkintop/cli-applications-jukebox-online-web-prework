@@ -20,6 +20,6 @@ def help
 end
 
 def list(songs)
-  song_list = songs.each_with_index { |song, index + 1|}
+  song_list = songs.each_with_index { |song, index| index + 1 }
   puts song_list
 end
