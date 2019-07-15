@@ -71,6 +71,7 @@ def play(songs)
   
   if songs.include?(input) 
   puts "playing #{input}"
+
 else puts "Invalid input, please try again"
   end 
 end 
