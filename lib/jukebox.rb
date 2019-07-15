@@ -74,6 +74,9 @@ def run
   
  while input != "exit" do
    
+   if input == "list"
+     list(songs)
+   end
    
    
    
