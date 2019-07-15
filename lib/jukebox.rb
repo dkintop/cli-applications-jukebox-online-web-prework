@@ -33,33 +33,6 @@ end
 
 
 
-=begin
-def play(songs)
-  
-  puts "Please enter a song name or number:"
-  
-  
-  input = gets.chomp!
-  input
-  
-  if songs.include?(input)
-    puts "Playing #{input}"
-    
-  elsif songs[input.to_i - 1]
-  
-  puts "Playing #{songs[input.to_i - 1]}"
-  
-else
-  puts "invalid input, please try again"
-  end
-    
-  
-    
-    
-end
-
-=end
-
 
 def play(songs)
   puts "Please enter a song name or number:"
@@ -85,6 +58,22 @@ def exit_jukebox
 puts "Goodbye"
   
 end
+
+
+def run
+  
+  help
+  
+  puts "Please eneter a command:"
+  input = gets.chomp
+  
+  if input == "list"
+    
+    list(songs)
+  end
+  
+      
+
 
 
 
