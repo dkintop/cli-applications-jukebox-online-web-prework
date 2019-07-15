@@ -39,7 +39,7 @@ def play(songs)
   input = gets.chomp
   songs.each_with_index do |song, i|
     if input.to_i == i
-    puts "playing #{songs[i-1]}"
+    puts "playing #{songs[i]}"
   end
   
   if songs.include?(input) 
