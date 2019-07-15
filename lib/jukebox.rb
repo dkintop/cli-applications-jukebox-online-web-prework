@@ -71,6 +71,7 @@ def run
     
     list(songs)
   end
+end
   
       
 
