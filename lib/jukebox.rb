@@ -37,6 +37,10 @@ def play(songs)
   input = gets.chomp
   
   if input == Integer && input > 0 && input <= list(songs).length
+  
+  puts "playing "
+  
+  
   end
 
 
