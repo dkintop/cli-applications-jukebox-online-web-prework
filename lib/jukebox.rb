@@ -49,13 +49,6 @@ def play(songs)
 
 
 
-def test_
-  
-  a = 1901
-  
-  
-  binding.pry
-end
   
 
 
