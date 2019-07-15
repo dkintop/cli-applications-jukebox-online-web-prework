@@ -32,26 +32,6 @@ end
 
 
 
-=begin
-
-def play(songs)
-  puts "Please enter a song name or number:"
-  input = gets.chomp
-  songs.each_with_index do |song, i|
-    if input.to_i == i
-    puts "playing #{songs[i-1]}"
-  end
-  
-  if songs.include?(input) 
-  puts "playing #{input}"
-
-else puts "Invalid input, please try again"
-  end 
-end 
-
-end 
-
-=end
 
 
 
@@ -80,33 +60,7 @@ end
 
 
 
-=begin
-def run(songs)
-  
-  help
-  
-  puts "Please eneter a command:"
-  
-  input = gets.chomp
-  
- while input != "exit" do
-   
-   if input == "list"
-     list(songs)
-   end
-   
-   
-   
-   
-   
-  
-  
-  exit_jukebox
-  end
-  
-end
-=end
- 
+
  
 
   def run(songs)	
