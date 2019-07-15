@@ -72,14 +72,18 @@ def run
   
   input = gets.chomp
   
- if input == "exit"
+ while input != "exit" do
    
-   exit_jukebox
- end
+   
+   
+   
+   
+   
   
   
   
-  
+  end
+  exit_jukebox
 end
   
       
