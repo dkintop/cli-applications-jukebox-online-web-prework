@@ -28,7 +28,7 @@ def list(songs)
   song_list
 end
 
-binding.pry
+
 
 
 
