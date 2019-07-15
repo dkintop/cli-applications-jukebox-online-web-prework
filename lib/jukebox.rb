@@ -38,13 +38,6 @@ def play(songs)
   
   puts "Please enter a song name or number:"
   
-  input = gets.chomp
-  
-  if input.class == Integer && input <= songs.length + 1
-    
-    song_name = songs[input - 1]
-    
-    elsif input.class
     
     
   end
