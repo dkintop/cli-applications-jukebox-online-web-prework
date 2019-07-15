@@ -28,6 +28,10 @@ def list(songs)
   song_list
 end
 
+binding.pry
+
+
+
 
 
 def play(songs)
@@ -40,8 +44,12 @@ def play(songs)
   song_name = list(songs)[input - 1]
   puts "playing #{song_name}"
   
-  
-  
+  elsif songs.include?(input) && input != Integer
+    song_name = input
+    puts "playing #{song_name}"
+    
+  else
+    puts "Invalid input, please try again"
   
   end
 
