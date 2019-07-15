@@ -44,12 +44,19 @@ def play(songs)
   end
 
 
-binding.pry
+
 end
 
 
 
-
+def test_
+  
+  a = 1901
+  
+  
+  binding.pry
+end
+  
 
 
 
