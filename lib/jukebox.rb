@@ -41,6 +41,9 @@ def play(songs)
   
   if songs.include?(input)
     puts "Playing #{input}"
+    
+  elsif songs[input.to_i - 1]
+    
   
     
     
