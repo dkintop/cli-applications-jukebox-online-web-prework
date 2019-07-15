@@ -40,7 +40,7 @@ def play(songs)
   
   input = gets.chomp
   
-  #if input == Integer
+  if input ==
   end
 
 
