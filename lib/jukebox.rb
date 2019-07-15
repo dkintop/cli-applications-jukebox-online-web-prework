@@ -40,7 +40,11 @@ def play(songs)
   
   input = gets.chomp
   
-  if input.class == Integer
+  if input.class == Integer && input < songs.length
+    
+    song_name = 
+    
+    
   end
 
 
