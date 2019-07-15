@@ -67,10 +67,14 @@ def run
   puts "Please eneter a command:"
   input = gets.chomp
   
-  if input == "list"
-    
-    list(songs)
-  end
+ if input == "exit"
+   
+   exit_jukebox
+ end
+  
+  
+  
+  
 end
   
       
