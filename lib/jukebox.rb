@@ -41,6 +41,7 @@ def play(songs)
   input = gets.chomp
   
   if input == Integer
+  end
 
 
 binding.pry
