@@ -65,6 +65,7 @@ def run
   help
   
   puts "Please eneter a command:"
+  
   input = gets.chomp
   
  if input == "exit"
