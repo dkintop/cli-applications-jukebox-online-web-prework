@@ -40,22 +40,10 @@ def play(songs)
   
   input = gets.chomp
   
-  if input == Integer && input > 0 && input <= list(songs).length
-  song_name = list(songs)[input - 1]
-  puts "playing #{song_name}"
-  
-  elsif songs.include?(input) && input != Integer
-    song_name = input
-    puts "playing #{song_name}"
-    
-  else
-    puts "Invalid input, please try again"
-  
-  end
+  if input == Integer
 
 
-
-
+binding.pry
 end
 
 
